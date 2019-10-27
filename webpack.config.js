@@ -7,7 +7,8 @@ output: {
   filename: 'js/bundle.js'
 },
 devServer: {
-  contentBase: './dist'
+  contentBase: './dist',
+  port: 9000
 },
 plugins: [
   new HtmlWebpackPlugin({
